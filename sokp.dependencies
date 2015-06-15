@@ -1,10 +1,17 @@
 [
  {
-   "repository": "android_kernel_lge_hammerhead",
-   "target_path": "kernel/lge/hammerhead"
+   "repository": "kernel_lge_hammerhead",
+   "target_path": "kernel/lge/hammerhead",
+   "branch":      "sokp-l5.1"
  },
  {
-   "repository": "android_device_qcom_common",
-   "target_path": "device/qcom/common"
- }
+   "repository": "device_qcom_common",
+   "target_path": "device/qcom/common",
+   "branch":      "sokp-l5.1"
+ },
+ {
+    "repository": "proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+	"branch":      "sokp-l5.1"
+  }
 ]
